@@ -1,0 +1,8 @@
+langchain
+openai
+detectron2@git+https://github.com/facebookresearch/detectron2.git@v0.6#egg=detectron2 -q
+unstructured
+"unstructured[local-inference]"
+pinecone-client
+pillow==6.2.2
+
