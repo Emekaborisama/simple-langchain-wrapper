@@ -47,9 +47,9 @@ answer = wrapper.get_answer(query)
 - Set OpenAI_API_KEY, pinecone_api_key, pinecone_environment,pinecone_index_name  as environment variables
 
 ```bash
-export pinecone_api_key='14921cd0-631f-47bb-b841-7e08f158752d'
-export pinecone_environment='us-west4-gcp-free'
-export pinecone_index_name='langchaindemo'
+export pinecone_api_key='1492xxxxxxxx'
+export pinecone_environment='us-xxxx'
+export pinecone_index_name='xxxxx'
 ```
 
 - auth_wrapper() validates these keys before use
