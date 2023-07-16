@@ -1,4 +1,4 @@
-# Langchain wrapper 
+# Simple Langchain wrapper 
 
 
 This project is basically an abstraction of langchain and llm projects so you can achieve the same objective with a single line of code
@@ -37,7 +37,7 @@ wrapper = langchain_docs_wrapper(
 )
 
 
-query = "what is foundational model"
+query = "what is xxxxxxx "
 answer = wrapper.get_answer(query)
 
 ```
@@ -62,4 +62,3 @@ export pinecone_index_name='xxxxx'
 - model_name: str, embedding model name  
 - chain_type: str, Langchain QA model type
 
-"""
